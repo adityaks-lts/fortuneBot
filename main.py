@@ -16,7 +16,7 @@ def get_quotea():
   json_data = json.loads(response.text)
   quotes = json_data[0]['q'] + " -" + json_data[0]['a'] 
   return(quotes)
-http://one.airtel.in/
+
 def addingReply(replyedMessage):
   db['rand_reply'] = db["rand_reply"] + "," + replyedMessage
 
